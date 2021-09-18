@@ -1,0 +1,17 @@
+.header{
+    background-color: #EDBF69;
+    height: 13vh;
+    width:100%;
+    
+    display:flex;
+    
+    align-items: center;
+    
+}
+.home{
+    margin-left: 30px;
+    
+}
+.svg_icons {
+    transform: scale(1.8);
+  }
