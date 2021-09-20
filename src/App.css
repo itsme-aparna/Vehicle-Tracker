@@ -2,7 +2,27 @@
   margin: 0;
   padding: 0;
   
+  
 }
 .App{
   margin-top: 0;
 }
+
+.Cards{
+  padding: 60px;
+  display: flex;
+  flex-direction: row;
+}
+
+.app1{
+  color:black;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.a{
+  justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 40px;
+}
+

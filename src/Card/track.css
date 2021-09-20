@@ -1,4 +1,4 @@
-.headerloc{
+.headertrac{
     justify-content: center;
     display: flex;
     flex-direction: column;
@@ -13,19 +13,23 @@
    
     box-shadow: 0 13px 27px -5px hsla(240, 30.1%, 28%, 0.25), 0 8px 16px -8px hsla(0, 0%, 0%, 0.3), 0 -6px 16px -6px hsla(0, 0%, 0%, 0.03);
     
-    
 }
 
-.loctitle{
+.trac{
+    padding: 30px;
+}
+
+.p{
     color: aliceblue;
     font-family: 'Quicksand', sans-serif;
 }
 
-.loc{
-    padding: 30px;
+.tractitle{
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
 }
 
-.imgloc{
+.imgtrac{
     
     width: 370px;
     height: 200px;
@@ -35,7 +39,7 @@
 
 }
 
-.locbutton{
+.tracbutton{
     border-radius: 10px;
 	margin-bottom: 10px;
 	margin-top: 10px;

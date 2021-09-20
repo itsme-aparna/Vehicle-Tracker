@@ -1,0 +1,13 @@
+.map1{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    
+    
+	border-style: solid;
+}
+.leaflet-container{
+    
+    height: 600px;
+    width: 100%;
+}

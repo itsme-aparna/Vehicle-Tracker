@@ -1,17 +1,25 @@
 .header{
-    background-color: #EDBF69;
+    background-image: linear-gradient(to right, #E1A2B8 , #9F2BC1);
     height: 13vh;
     width:100%;
     
-    display:flex;
-    
+    justify-content: center;
+    display: flex;
     align-items: center;
     
 }
+.headere{
+    color: aliceblue;
+    font-family: 'Quicksand', sans-serif;
+}
 .home{
-    margin-left: 30px;
+
+    justify-content: center;
+    display: flex;
+    align-items: center;
     
 }
 .svg_icons {
     transform: scale(1.8);
+    margin-left: 30px;
   }
