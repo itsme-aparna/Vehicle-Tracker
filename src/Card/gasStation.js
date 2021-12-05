@@ -6,8 +6,11 @@ function GasStation(props) {
     const [state, setstate] = useState({data:""})
 
     const changeState = () => {
-        setstate({data1: props.gaslatt, data2: props.gaslong})
+        setstate({data: "Vishakhapatnam", data1: props.gaslatt, data2: props.gaslong})
     }
+
+    
+
     return (
         <div className="gasgs">
             <div className="headerlocgs">
@@ -17,6 +20,7 @@ function GasStation(props) {
             
   
             <button className="locbuttongs" onClick={changeState}>Know the location of the nearest gas station</button>
+            <div>{state.data}</div>
             <div>{state.data1}</div>
             <div>{state.data2}</div>
 

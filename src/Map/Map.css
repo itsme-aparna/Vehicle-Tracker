@@ -11,3 +11,10 @@
     height: 600px;
     width: 100%;
 }
+
+.LocateButton{
+    padding: 30px;
+    height: 60px;
+    width: 100%;
+    background-image: linear-gradient(to right, #E1A2B8 , #9F2BC1);
+}

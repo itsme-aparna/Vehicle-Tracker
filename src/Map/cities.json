@@ -1,0 +1,71 @@
+[
+    
+    {
+        "city": "Rourkela",
+        "admin": "Odisha",
+        "country": "India",
+        "population_proper": "1837041",
+        "iso2": "IN",
+        "capital": "",
+        "lat": "22.2604",
+        "lng": "84.8536",
+        "population": "2026000"
+    },
+
+    {
+        "city": "Brahmapur",
+        "admin": "Odisha",
+        "country": "India",
+        "population_proper": "1599914",
+        "iso2": "IN",
+        "capital": "admin",
+        "lat": "19.3150",
+        "lng": "84.7941",
+        "population": "1727000"
+    },
+    {
+        "city": "Warangal",
+        "admin": "Telangana ",
+        "country": "India",
+        "population_proper": "959823",
+        "iso2": "IN",
+        "capital": "",
+        "lat": "17.9689",
+        "lng": "79.5941",
+        "population": "1696000"
+    },
+    
+    {
+        "city": "Sambalpur",
+        "admin": "Odisha",
+        "country": "India",
+        "population_proper": "1576614",
+        "iso2": "IN",
+        "capital": "",
+        "lat": "21.4669",
+        "lng": "83.9812",
+        "population": "1576614"
+    },
+    {
+        "city": "Vishakhapatnam",
+        "admin": "Andhra Pradesh",
+        "country": "India",
+        "population_proper": "1063178",
+        "iso2": "IN",
+        "capital": "",
+        "lat": "17.704052",
+        "lng": "83.297663",
+        "population": "1529000"
+    },
+    {
+        "city": "Bhillai",
+        "admin": "Chattisgarh",
+        "country": "India",
+        "population_proper": "604696",
+        "iso2": "IN",
+        "capital": "",
+        "lat": "21.1938",
+        "lng": "81.3509",
+        "population": "1519000"
+    }
+]

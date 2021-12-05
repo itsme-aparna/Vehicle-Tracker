@@ -2,25 +2,28 @@ import React from "react";
 import Header from "./Header/Header";
 import './App.css';
 import Location from "./Card/location";
-import GasStation from "./Card/gasStation";
+import GasStation2 from "./Card/gasStation2";
 import Track from "./Card/track";
-import BasicMap from "./Map/Map1";
+import BasicMap from "./Map/Marker";
+import FetchLocation from "./FetchData/FetchLocation";
 
 function App() {
-  const lattitude = 123;
-  const longitude = 456;
-  const gaslatt = 78;
-  const gaslong = 910;
+  const latitude = 13.084622;
+  const longitude = 80.248357;
+  
+
+  const gaslatt = 17.704052;
+  const gaslong = 83.297663;
   return (
     
-    <div className="App">
+    <div className="App" style={{scrollBehavior:"smooth"}}>
       <Header/>
 
-      <div className="Cards">
+      <div className="Cards" style={{display:"flex", flexDirection:"row", justifyContent:"space-around"}}>
         <Location
-        lattitude={lattitude}
+        latitude={latitude}
         longitude={longitude}/>
-        <GasStation
+        <GasStation2
         gaslatt = {gaslatt}
         gaslong = {gaslong}/>
         <Track/>
@@ -31,6 +34,7 @@ function App() {
       </div>
       <BasicMap/> 
       
+      <div style={{width:"100%",marginTop:"10px",fontFamily:"Readex Pro, sans-serif"}}>Developed by: Aparna Patra [19BEE0069], Kumar Sanjeet Yadav [19BEE0380]</div>
     </div>
   );
 }

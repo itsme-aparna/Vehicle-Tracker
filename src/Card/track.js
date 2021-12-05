@@ -10,7 +10,11 @@ function Track() {
             <p className="p" >Even in the most remote areas with unstable network, you will be covered by a GSM frequency band </p>
             
   
-            <button className="tracbutton" >Track your vehicle</button>
+            <button className="tracbutton" onClick={()=>{window.scroll({
+                        top: 1000,
+                        left: 0,
+                        behavior: 'smooth'
+                        });}}>Track your vehicle</button>
             
             </div>
         </div>
