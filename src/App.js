@@ -8,12 +8,12 @@ import BasicMap from "./Map/Marker";
 import FetchLocation from "./FetchData/FetchLocation";
 
 function App() {
-  const latitude = 13.084622;
-  const longitude = 80.248357;
+  // const latitude = 13.084622;
+  // const longitude = 80.248357;
   
 
-  const gaslatt = 17.704052;
-  const gaslong = 83.297663;
+  // const gaslatt = 17.704052;
+  // const gaslong = 83.297663;
   return (
     
     <div className="App" style={{scrollBehavior:"smooth"}}>
@@ -21,11 +21,13 @@ function App() {
 
       <div className="Cards" style={{display:"flex", flexDirection:"row", justifyContent:"space-around"}}>
         <Location
-        latitude={latitude}
-        longitude={longitude}/>
+        // latitude={latitude}
+        // longitude={longitude}
+        />
         <GasStation2
-        gaslatt = {gaslatt}
-        gaslong = {gaslong}/>
+        // gaslatt = {gaslatt}
+        // gaslong = {gaslong}
+        />
         <Track/>
 
       </div>

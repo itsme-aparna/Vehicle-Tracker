@@ -70,7 +70,7 @@ function GasStation2(props) {
             {state.distance?(<div style={{fontFamily:"Readex Pro, sans-serif", color:"white",margin:"10px"}}>{state.distance}</div>):(<></>)}
             {state.nearestCityLatitude?(<div style={{fontFamily:"Readex Pro, sans-serif", color:"white",margin:"10px"}}>{state.nearestCityLatitude}</div>):(<></>)}
             {state.nearestCityLongitude?(<div style={{fontFamily:"Readex Pro, sans-serif", color:"white",margin:"10px"}}>{state.nearestCityLongitude}</div>):(<></>)}
-            {(state.nearestCityName=="")?(<></>):(<><button onClick={()=>{window.location.replace("https://google.com")}} style={{fontFamily:"Readex Pro, sans-serif", padding:"5px",marginTop:"10px"}}>View on map</button></>)}
+            {/* {(state.nearestCityName=="")?(<></>):(<><button onClick={()=>{window.location.replace("https://google.com")}} style={{fontFamily:"Readex Pro, sans-serif", padding:"5px",marginTop:"10px"}}>View on map</button></>)} */}
         </div>
         </div>
     )
